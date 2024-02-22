@@ -1,0 +1,200 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body
+{min-height: 100vh;
+    overflow-x: hidden;
+   
+}
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10000;
+    overflow: hidden;
+}
+
+header .logo
+{
+
+    letter-spacing: 2px;
+    mix-blend-mode: screen;
+}
+header ul
+{
+   display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li
+{
+    list-style: none;
+    margin-left: 25px;
+}
+header ul li a 
+{
+    text-decoration: none;
+    padding: 6px 15px;
+    color: black;
+    border-radius: 30px;
+}
+header ul li a:hover, 
+header ul li a.active
+{
+    background: black;
+    color:floralwhite ;
+}
+
+.parallax
+{
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background: url("img/background.png") no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+} 
+.parallax img
+{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+pointer-events: none;
+pointer-events: none;
+}
+.parallax2
+{
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background: url("img/projeto-car-wallpaper_1.mp4") no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+} 
+.parallax2 img
+{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+pointer-events: none;
+pointer-events: none;
+}
+.parallax3
+{
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background: url("img/back3.jpg") no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+} 
+.parallax2 img
+{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+pointer-events: none;
+pointer-events: none;
+}
+.parallax4
+{
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background: url("img/back4.jpg") no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+} 
+.parallax3 img
+{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+pointer-events: none;
+pointer-events: none;
+}
+#btn
+{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 40px;
+    background: #fff;
+    color: #2b1055;
+    font-size: 1.5em;
+    transform: translateY(50px);
+}
+#sec
+{
+    position: relative;
+    background: #00020a;
+    padding: 30px 100px;
+}
+#sec h2
+{
+font-size: 3em;
+color: #fff;
+margin-bottom: 10px;
+}
+#sec{
+    font-size: 1em;
+color: #fff;
+margin-bottom: 10px;
+}
+
+#sec p
+{
+font-size: 1em;
+color: #fff;
+font-weight: 400;
+text-align: justify;
+}
+
+
+
+@media(max-width: 1100px){
+    .logo{ 
+        display: none;}
+        p{
+            width: 70vw;}
+        #sec{
+            padding: 20px 60px;
+        }
+        header {
+             padding: 20px 8px;
+            }
+            header ul li{
+                margin-left: 10px;
+            }
+ 
+}
